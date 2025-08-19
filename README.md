@@ -1,41 +1,29 @@
+<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/Ultraviolet-Static/main/public/uv.png" height="200"></p>
 
-<p align="center">
-  <img src="https://i.ibb.co/qMCJHxFm/NOVALOGO.png" height="250">
-</p>
+<h1 align="center">Ultraviolet-App</h1>
 
-<h1 align="center">NOVA Proxy</h1>
+The deployable all-in-one bundle for [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!
 
-NOVA Proxy is a modern and powerful web proxy designed for unrestricted browsing.  
-It provides secure, high-performance access to the web — including sites protected by captchas — and is built for speed, reliability, and ease of use.  
+## Deployment
 
-NOVA Proxy is forked from [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), continuing its strong foundation while expanding its identity and branding.
+[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Run-on-Replit)
+[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-on-Railway)
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Remix-on-Glitch)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-to-Koyeb)
 
----
+If you are deploying to an alternative service or to a server, refer to [Deploy via terminal](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Deploy-via-terminal).
 
-## ✨ Features
+Additional information such as [customizing your frontend](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki/Customizing-your-frontend) can be found on the [wiki](https://github.com/titaniumnetwork-dev/Ultraviolet-App/wiki).
 
-- 🚀 **High Performance** – Lightweight and fast browsing experience.  
-- 🔐 **Captcha Support** – Works with sites requiring captchas (e.g., Discord, YouTube, Spotify).  
-- ⚙️ **Client-Side Config** – Service worker–based configuration for flexibility.  
-- 📦 **Easy Hosting** – Blacklist options, leak prevention, and improved resource handling.  
-- 🔄 **Regular Updates** – Actively maintained and optimized for modern setups.  
+Support and updates can be found in our [Discord Server](discord.gg/unblock).
 
----
+> [!IMPORTANT]  
+> Until deployed on a domain with a valid SSL certificate, Firefox will not be able to load the site. Use chromium for testing on localhost
 
-## 🌐 Supported Sites
+### HTTP Transport
 
-Some popular websites supported by NOVA Proxy include:
+The example uses [EpoxyTransport](https://github.com/MercuryWorkshop/EpoxyTransport) to fetch proxied data encrypted.
 
-- [Google](https://google.com)  
-- [YouTube](https://youtube.com)  
-- [Spotify](https://spotify.com)  
-- [Discord](https://discord.com)  
-- [Reddit](https://reddit.com)  
-- [GeForce NOW](https://play.geforcenow.com/)  
-- [now.gg](https://now.gg)  
+You may also want to use [CurlTransport](https://github.com/MercuryWorkshop/CurlTransport), a different way of fetching encrypted data, or [Bare-Client](https://github.com/MercuryWorkshop/Bare-as-module3), the legacy (unencrypted!) transport.
 
----
-
-## 📥 Installation
-
-uhh idk vros you gotta wait for dis :(
+See the [bare-mux](https://github.com/MercuryWorkshop/bare-mux) documentation for more information.
