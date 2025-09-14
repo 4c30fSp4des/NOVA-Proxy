@@ -35,4 +35,17 @@ Some popular websites supported by NOVA Proxy include:
 
 ## 📥 Installation
 
-uhh idk vros you gotta wait for dis :(
+Codespaces or Terminal:
+1: Cloning
+```
+git clone https://github.com/4c30fSp4des/NOVA-Proxy.git
+cd NOVA-Proxy
+```
+2: Install
+```
+npm install
+```
+3: Start (Once dependencies are installed)
+```
+npm start
+```
