@@ -35,7 +35,6 @@ Some popular websites supported by NOVA Proxy include:
 
 ## 📥 Installation
 
-Codespaces or Terminal:
 1: Cloning
 ```
 git clone https://github.com/4c30fSp4des/NOVA-Proxy.git
